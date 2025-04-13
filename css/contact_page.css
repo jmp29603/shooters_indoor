@@ -1,0 +1,150 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+#head {
+    background-color: #0d0024;
+    background-image: url("../images/shooters-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Logo Styling */
+.logo-img {
+    text-align: center;
+	width: 650px;
+	height: 250px;
+	
+}
+
+#contactInfo {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+	float: right;
+	position: relative;
+	bottom: 90px;
+	
+}
+
+header address {
+    color: white;
+    text-align: center;
+}
+
+/* Team Logos - Using Flexbox Instead of Table */
+.team-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+	float: left;
+	position: relative;
+	bottom: 10px;
+	
+}
+
+.team-logos img {
+	width: 50px;
+	height: 50px;
+    max-width: 50px;
+}
+
+/* Quote Styling */
+#quote {
+    text-align: right;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+	position: relative;
+	right: 210px;
+}
+
+
+/* Navigation Bar */
+#mainLinks {
+	width: 100%;
+	background-color: #333;
+	position: relative;
+	top: 20px;
+}
+
+#mainLinks ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+#mainLinks ul li {
+    border-right: 1px solid white;
+}
+
+#mainLinks ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+/* Navigation Hover Effect */
+#mainLinks ul li a:hover {
+    background-color: black;
+}
+
+/* Contact Us Styling */
+
+form {
+	background-color: #46025f;
+	display: flex;
+	width: 50%;
+	font-size: 25px;
+	float: left;
+	padding: 40px;
+	box-shadow: none;
+}
+
+#hockey img {
+	display: flex;
+	float: right;
+	width: 35%;
+	position: relative;
+	right: 50px;
+	margin: 10px;
+}
+
+
+
+
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #0d0024;
+    padding: 20px;
+    margin-top: 50px;
+	width: 100%;
+	float: right;
+}
+
+footer h4, footer address, #copyright {
+    color: white;
+}
+
+footer img {
+    width: 50px;
+    margin: 10px;
+	
+}

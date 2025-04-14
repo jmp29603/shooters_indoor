@@ -1,12 +1,18 @@
-body {
-    background-color: black;
-    font-family: Arial, sans-serif;
-    color: white;
-    margin: 0;
-    padding: 0;
-}
+@charset "UTF-8";
+/* CSS Document */
 
-  header {
+/* Shooters About page style - Jeremy Pretko */
+
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Comic Neue', cursive;
+      background-color: #46025f;
+      color: #ccc;
+    }
+
+    header {
       background: #0d0024;
       color: white;
       padding: 20px;
@@ -58,53 +64,48 @@ body {
         align-items: center;
       }
     }
-
-
 	
-
-
-
-
-
-form {
-	background-color: #46025f;
-	display: flex;
-	width: 50%;
-	font-size: 25px;
-	float: left;
-	padding: 40px;
-	box-shadow: none;
-}
-
-#hockey img {
-	display: flex;
-	float: right;
-	width: 35%;
-	position: relative;
-	right: 50px;
-	margin: 10px;
-}
-
-
-
-
-
-/* Footer Styling */
-footer {
-    text-align: center;
-    background-color: #0d0024;
-    padding: 20px;
-    margin-top: 50px;
-	width: 100%;
-	float: right;
-}
-
-footer h4, footer address, #copyright {
-    color: white;
-}
-
-footer img {
-    width: 50px;
-    margin: 10px;
+	a img {
+		width: 50px;
+		height: 50px;
+	}
 	
+	#team {
+		margin: auto;
+		display: block;
+		border: solid white 2px;
+		
+	}
+	
+	#mission img {
+		width: 30%;
+		padding: 50px;
+		
+	}
+	
+	#story img {
+		width: 30%;
+		padding: 50px;
+	}
+	
+	section {
+		margin: 10px;
+		padding: 10px;
+		border: solid white 2px;
+		text-align: center;
+	}
+	
+	div {
+  margin: auto;
+  text-align: center;
+}
+
+h2 { 
+	text-decoration: underline;
+	color: white;
+}
+
+h1 {
+	color: white;
+	padding: 20px;
 }

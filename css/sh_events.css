@@ -1,12 +1,18 @@
-body {
+@charset "UTF-8";
+/* CSS Document */
+
+/* Shooters events style - Jeremy Pretko */
+
+
+    body {
       margin: 0;
       padding: 0;
       font-family: 'Comic Neue', cursive;
       background-color: #46025f;
-      color: white;
+      color: black;
     }
 
-  header {
+    header {
       background: #0d0024;
       color: white;
       padding: 20px;
@@ -43,8 +49,70 @@ body {
     nav ul li a:hover {
       background-color: #555;
     }
+
+    main {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
 	
-	footer {
+	section {
+		margin: 10px;
+		padding: 10px;
+		border: solid white 2px;
+		text-align: center;
+		color: white;
+	}
+	
+	section img {
+		width: 50%;
+		height:25%;
+		border-style: solid;
+		border-color: #0d0024;
+		border-width: 10px;
+	}
+	
+	#bookNow {
+		width: 150px;
+		height: 50px;
+		margin: auto;
+		}
+		
+	div.bullets {
+		text-align: center;
+	}
+	
+	ul {
+		list-style-position: inside;
+		display: table;
+		margin: 0 auto;
+
+	}
+	
+	h3 { 
+	text-decoration: underline;
+	font-size:25px;	
+	}
+	
+	h2 { 
+	text-decoration: underline;
+	font-size: 40px;
+	}
+
+	h1 {
+		color: white;
+		padding: 20px;
+	}
+	
+	
+	
+	
+
+footer {
       background-color: #0d0024;
       color: white;
       text-align: center;
@@ -58,51 +126,8 @@ body {
         align-items: center;
       }
     }
-
-form {
-	background-color: #46025f;
-	display: flex;
-	width: 50%;
-	font-size: 25px;
-	float: left;
-	padding: 40px;
-	box-shadow: none;
-}
-
-#hockey img {
-	display: flex;
-	width: 35%;
-	margin: auto;
-	padding: 10px;
-	margin-top: 30px;
-}
-
-section {
-		margin: 10px;
-		padding: 10px;
-		border: solid white 2px;
-		text-align: center;
-	}
-
-
-
-
-/* Footer Styling */
-footer {
-    text-align: center;
-    background-color: #0d0024;
-    padding: 20px;
-    margin-top: 50px;
-	width: 100%;
-	float: right;
-}
-
-footer h4, footer address, #copyright {
-    color: white;
-}
-
-footer img {
-    width: 50px;
-    margin: 10px;
 	
-}
+	a img {
+		width: 50px;
+		height: 50px;
+	}

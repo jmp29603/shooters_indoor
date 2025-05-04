@@ -128,4 +128,9 @@
 		text-align: center;
 		}
 		
-	
+	#penaltyBox {
+		width: 250px;
+		height: 100px;
+		display:block;
+		margin:auto;
+	}
